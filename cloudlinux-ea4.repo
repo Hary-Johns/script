@@ -1,0 +1,20 @@
+[cl-ea4]
+name=CloudLinux $releasever EasyApache4
+baseurl=https://repo.cloudlinux.com/cloudlinux/EA4/$releasever/updates/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CloudLinux
+
+[cl-ea4-debuginfo]
+name=CloudLinux $releasever EasyApache4 - debuginfo
+baseurl=https://repo.cloudlinux.com/cloudlinux/EA4/$releasever/updates/$basearch-debug/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CloudLinux
+
+[cl-ea4-sources]
+name=CloudLinux $releasever EasyApache4 - sources
+baseurl=https://repo.cloudlinux.com/cloudlinux/EA4/$releasever/updates/src/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CloudLinux
